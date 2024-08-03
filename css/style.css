@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+main {
+    flex: 3;
+    padding: 20px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 28%;
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #03344C;
+    color: #fff;
+}
+.portfolio-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: #fff;
+    font-family: Arial,sans-serif;
+    
+}
+.portfolio-item img{
+    padding: 20px;
+    width: 90%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 50px;
+    
+    
+    
+}
+.portfolio-item{
+    height: 400px;
+    padding-top: 0px;
+    border: 2px solid rgb(46, 32, 32);
+    box-shadow: 2px 10px 10px 2px rgba(0,0,0,0.1);
+    border: none;
+    background-color: #fff;
+    width: 90%;
+    margin: 20px;
+    border-radius: 20px;
+    
+
+    
+}
